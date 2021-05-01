@@ -2,7 +2,10 @@
 assesment for job application
 
 1-download repository files
+
 2-open htttp://localhost/
+
+
 3-enter the values needed for the exercise you wish to check the results of.
 
 note: Exercise 1 is not done correctly.
