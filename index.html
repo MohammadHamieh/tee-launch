@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+
+  <title>Tee-Launch</title>
+</head>
+<body>
+
+
+  <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <!--Ex 1-->
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="./bottle.jpg" alt="Exercise 1">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Exercise 1</div>
+        <p class="text-gray-700 text-base">
+            <form action="ex1.php" method="post" class="w-full max-w-sm">
+                <div class="flex items-center border-b border-teal-500 py-2">
+                  <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="<div></div>" name="html_string">
+                  <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="submit">
+                    Check
+                  </button>
+                </div>
+              </form>
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Did_not_work</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Sad</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#I_tried_hard</span>
+      </div>
+    </div>
+    <!--Ex 2-->
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="./Canvas_Man.png" alt="Exercise 2">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Exercise 2</div>
+        <form action="ex2.php" method="post" class="w-full max-w-sm">
+            <div class="flex items-center border-b border-teal-500 py-2">
+              <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="[[[()]]]" name="ex2">
+              <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="submit">
+                Check
+              </button>
+            </div>
+          </form>
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Happy</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Success</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#YAY</span>
+      </div>
+    </div>
+
+    <!--Ex 3-->
+    <div class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="./couch.jpg" alt="Exercise 3">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Exercise 3</div>
+        <p class="text-gray-700 text-base">
+            <form action="ex3.php" method="post" class="w-full max-w-sm">
+                <div class="flex items-center border-b border-teal-500 py-2">
+                  <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="width" name="width">
+                  <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="height" name="height">
+                  <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="submit">
+                    Check
+                  </button>
+                </div>
+              </form>
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Working</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#work_smart_not_hard</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Employee_of_the_year</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
